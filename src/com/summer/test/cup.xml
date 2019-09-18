@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cups>
+    <cup name="atricle" class="com.summer.test.Atricle">
+        <property name="sb" ref="sb"></property>
+    </cup>
+
+    <cup name="sb" class="com.summer.test.Sb"></cup>
+
+    <cup name = "book" class="com.summer.test.Book">
+        <property name = "atricle" ref="atricle"></property>
+        <property name="sb" ref="sb"></property>
+    </cup>
+
+    <cup name = "cupsFactorySupport" class="com.summer.factory.CupsFactorySupport"></cup>
+
+</cups>
